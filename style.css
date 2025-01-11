@@ -1,0 +1,133 @@
+* {
+
+
+2	+
+    margin: 0;
+3	+
+    padding: 0;
+4	+
+    box-sizing: border-box;
+5	+
+}
+6	+
+7	+
+body {
+8	+
+    font-family: Arial, sans-serif;
+9	+
+    background-color: #f4f4f4;
+10	+
+    display: flex;
+11	+
+    justify-content: center;
+12	+
+    align-items: center;
+13	+
+    height: 100vh;
+14	+
+}
+15	+
+16	+
+.container {
+17	+
+    background-color: white;
+18	+
+    border-radius: 10px;
+19	+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+20	+
+    padding: 30px;
+21	+
+    width: 400px;
+22	+
+    text-align: center;
+23	+
+}
+24	+
+25	+
+header {
+26	+
+    margin-bottom: 20px;
+27	+
+}
+28	+
+29	+
+h1 {
+30	+
+    font-size: 2em;
+31	+
+    color: #333;
+32	+
+}
+33	+
+34	+
+#generator {
+35	+
+    margin-top: 20px;
+36	+
+}
+37	+
+38	+
+.input-group {
+39	+
+    margin-bottom: 20px;
+40	+
+}
+41	+
+42	+
+input {
+43	+
+    padding: 10px;
+44	+
+    width: 80%;
+45	+
+    border-radius: 5px;
+46	+
+    border: 1px solid #ccc;
+47	+
+}
+48	+
+49	+
+button {
+50	+
+    padding: 10px 20px;
+51	+
+    background-color: #5c6bc0;
+52	+
+    color: white;
+53	+
+    border: none;
+54	+
+    border-radius: 5px;
+55	+
+    cursor: pointer;
+56	+
+    transition: background-color 0.3s;
+57	+
+}
+58	+
+59	+
+button:hover {
+60	+
+    background-color: #3f51b5;
+61	+
+}
+62	+
+63	+
+.result-container {
+64	+
+    margin-top: 20px;
+65	+
+    display: none;
+66	+
+}
+67	+
+68	+
+#generatedImage {
+69	+
+    max-width: 100%;
+70	+
+    border-radius: 50%;
+71	+
+}
+72	+
